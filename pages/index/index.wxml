@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="title">贝壳日程</view>
+  <view class="week">2月</view>
+</view>
+<view class="form">
+  <view class="week1">
+    <view class="colora">1</view>
+    <view class="colora">2</view>
+    <view class="colora">3</view>
+    <view class="colora">4</view>
+    <view class="colora">5</view>
+    <view class="colora">6</view>
+    <view class="colora">7</view>
+  </view>
+  <view class="week2">
+    <view class="colora">8</view>
+    <view class="colora">9</view>
+    <view class="colora">10</view>
+    <view class="colora">11</view>
+    <view class="colora">12</view>
+    <view class="colora">13</view>
+    <view class="colora">14</view>
+  </view>
+  <view class="week3">
+    <view class="colora">15</view>
+    <view class="colora">16</view>
+    <view class="colora">17</view>
+    <view class="colora">18</view>
+    <view class="colora">19</view>
+    <view class="colora">20</view>
+    <view class="colora">21</view>
+  </view>
+  <view class="week4">
+    <view class="colora">22</view>
+    <view class="colora">23</view>
+    <view class="colora">24</view>
+    <view class="colora">25</view>
+    <view class="colora">26</view>
+    <view class="colora">27</view>
+    <view class="colora">28</view>
+  </view>
+</view>
