@@ -1,91 +1,49 @@
-/**index.wxss**/
-.container {
-  height: 20rpx;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 150rpx;
-  padding-right: 150rpx;
+page {
+  background-color: #2A81CA;
+  color: white;
 }
 
-.title {
+.top {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 50rpx;
-  color: #5393C3;
-  background: #87C0CA;
-  width: 100%;
-  height: 200rpx;
-  padding: 45rpx;
-  margin-top: 10rpx;
-  border-radius: 50rpx;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
+.btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btns>view {
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.btns>view.active {
+  padding: 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(150deg, #73B7FB, #3F9CFA);
+  font-size: 18px;
+}
+
+.calendar {
+  /* display: flex; */
+  padding: 10px 0;
+  background-color: white;
+  color: black;
+}
+.date {
+  padding: 8px 0;
+  display: inline-block;
+  text-align: center;
+  width: 14.2857142857143%;
+}
 .week {
-  display: flex;
-  margin-top: 25rpx;
-  margin-bottom: 25rpx;
-  font-size: 35rpx;
-  color: #b5d4eb;
+  padding: 8px 0;
+  display: inline-block;
+  text-align: center;
+  width: 14.2857142857143%;
 }
-
-.form {
-  display: block;
-  width: 100%;
-  background: #EAE5E3;
-  margin-top: 50rpx;
-  border-radius: 50rpx;
-}
-
-.week1 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100rpx;
-  font-size: 40rpx;
-}
-
-.week2 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100rpx;
-  font-size: 40rpx;
-}
-
-.week3 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100rpx;
-  font-size: 40rpx;
-}
-
-.week4 {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100rpx;
-  font-size: 40rpx;
-}
-
-.colora {
-  color: #87C0CA;
-  width: 10%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 15rpx;
-  margin-right: 15rpx;
-  margin-left: 15rpx;
-  border-radius: 40rpx;
-}
-
-
-
-
-
-
