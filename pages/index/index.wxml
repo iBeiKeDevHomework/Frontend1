@@ -1,0 +1,17 @@
+<view class="top"><!--space-between使月份年份与头像间产生间距-->
+  <view style="display: flex;flex-direction: column;justify-content: space-around;font-size:25px;"><!--space-arpund使月份年份等距拉伸以填补头像高度-->
+    <view>2021</view>
+    <view>JAN</view>
+  </view>
+  <open-data style="width: 80px; border-radius:100%; overflow: hidden" type="userAvatarUrl"></open-data>
+</view>
+<view style="height:2px;background-color:white;"></view>
+<view class="btns">
+<view>Month</view>
+<view class="active">Week</view>
+<view>Add</view>
+</view>
+<view class="calendar">
+<view class="week"wx:for="{{'SMTWWFS'}}">{{item}}</view>
+<view class="date" wx:for="{{30}}">{{item + 1}}</view>
+</view>

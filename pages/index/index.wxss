@@ -1,0 +1,49 @@
+page {
+  background-color: #2A81CA;
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btns>view {
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.btns>view.active {
+  padding: 5px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 17px 34px 0px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(150deg, #73B7FB, #3F9CFA);
+  font-size: 18px;
+}
+
+.calendar {
+  /* display: flex; */
+  padding: 10px 0;
+  background-color: white;
+  color: black;
+}
+.date {
+  padding: 8px 0;
+  display: inline-block;
+  text-align: center;
+  width: 14.2857142857143%;
+}
+.week {
+  padding: 8px 0;
+  display: inline-block;
+  text-align: center;
+  width: 14.2857142857143%;
+}
